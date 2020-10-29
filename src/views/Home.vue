@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <div class="test">dddd</div>
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -16,3 +17,13 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+@import "~@/common/style/index.scss";
+
+.test{
+  height: vh(200);
+  background: $backgroundWhite;
+}
+
+</style>

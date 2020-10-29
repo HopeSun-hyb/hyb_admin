@@ -1,0 +1,10 @@
+// 宽度
+@function vw($w) {
+    @return $w/1366*100*1vw;
+}
+
+// 高度
+@function vh($h) {
+    @return $h/768*100*1vh;
+
+}
